@@ -1,29 +1,29 @@
 // 定义 Github 项目，文章会从这里读取
-const github_base = "kasuganosoras/frp-blog";
+const github_base = "ldeus/cblog";
 
 // 设置站点信息
-var default_title	 = "SakuraFrp Blog - 樱花内网穿透官方博客";					// 站点标题（显示在浏览器标题栏）
-var default_intitle	 = "SakuraFrp Blog";								// 站点名称（显示在首页）
-var default_description  = "欢迎访问 Sakura Frp 官方博客，本博客分享与 Frp 相关的技术以及记录一些日常。"; 	// 站点简介，有利于 SEO
-var site_domain		 = "blog.natfrp.org";								// 站点域名
-var site_subtitle	 = "樱花内网穿透官方博客";							// 站点副标题
-var site_favicon	 = "https://cn.tql.ink:4443/gitea/img/favicon.png";				// 站点 Logo
+var default_title	 = "ldeus Blog - ld的日常";							// 站点标题（显示在浏览器标题栏）
+var default_intitle	 = "ldeus Blog";								// 站点名称（显示在首页）
+var default_description  = "欢迎访问ldeus的博客。"; 							// 站点简介，有利于 SEO
+var site_domain		 = "blog.ldeus.com";								// 站点域名
+var site_subtitle	 = "可谁还记得我呢";								// 站点副标题
+var site_favicon	 = "https://i.loli.net/2019/12/03/2RHDtyeMzvdUWmk.jpg";				// 站点 Logo
 
 // 博主信息
-var owner_name = "Akkariin";									// 博主名字
-var owner_logo = "https://secure.gravatar.com/avatar/80962ca1ced98d0e679b2bc315d049f2?s=256"	// 博主头像
-var owner_desc = "鸽子王/咸鱼/phper，日常水贴摸鱼，佛系出租服务器";					// 博主简介
+var owner_name = "ldeus";										// 博主名字
+var owner_logo = "https://i.loli.net/2019/12/03/2RHDtyeMzvdUWmk.jpg"					// 博主头像
+var owner_desc = "只是一个什么都做不到的普通人";						     	    // 博主简介
 
 // 设置站点资源文件地址
-var css_bootstrap	 = "https://cn.tql.ink:4443/css/bootstrap.min.css";	// Boostrap css 文件地址
-var css_hljs_github   = "https://cn.tql.ink:4443/css/highlight.js/github.css";  // Highlight js css 地址
-var js_jquery		 = "https://cn.tql.ink:4443/js/jquery.min.js";		// JQuery 地址
-var js_bootstrap	= "https://cn.tql.ink:4443/js/bootstrap.min.js";	// Bootstrap 地址
-var js_instantclick   = "https://cn.tql.ink:4443/js/instantclick.min.js";	// InstantClick 地址
-var js_showdown	 = "https://cn.tql.ink:4443/js/showdown.min.js";		// Showdown 地址
-var js_showdown_table = "https://cn.tql.ink:4443/js/showdown-table.min.js";	// Showdown table 地址
-var js_highlight	= "https://cn.tql.ink:4443/js/highlight.min.js";	// Highlight 地址
-var js_highlight_pack = "https://cn.tql.ink:4443/js/highlight.pack.js";		// Highlight pack 地址
+var css_bootstrap	 = "https://cdn.bootcss.com/twitter-bootstrap/4.4.1/css/bootstrap.min.css";	// Boostrap css 文件地址
+var css_hljs_github   = "https://cdn.bootcss.com/highlight.js/9.18.1/styles/github.min.css";  		// Highlight js css 地址
+var js_jquery		 = "https://cdn.bootcss.com/jquery/3.5.0/jquery.min.js";			// JQuery 地址
+var js_bootstrap	= "https://cdn.bootcss.com/twitter-bootstrap/4.4.1/js/bootstrap.min.js";	// Bootstrap 地址
+var js_instantclick   = "https://cdn.bootcss.com/instantclick/3.1.0/instantclick.min.js";		// InstantClick 地址
+var js_showdown	 = "https://cdn.bootcss.com/showdown/1.9.1/showdown.min.js";				// Showdown 地址
+var js_showdown_table = "https://cdn.jsdelivr.net/npm/showdown-table@1.0.1/dist/showdown-table.min.js";	// Showdown table 地址
+var js_highlight	= "https://cdn.bootcss.com/highlight.js/9.18.1/highlight.min.js";		// Highlight 地址
+var js_highlight_pack = "https://cdn.jsdelivr.net/npm/highlightjs@9.16.2/highlight.pack.js";		// Highlight pack 地址
 
 // 这是一些临时变量，无需修改
 var title = "";
