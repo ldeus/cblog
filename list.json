@@ -8,5 +8,10 @@
         "title": "在Windows下使用rclone挂载GoogleDrive团队盘",
         "time": "2020-01-9",
         "file": "posts/2.md"
+    },
+    {
+        "title": "个人常用软件备份记录",
+        "time": "2020-4-23",
+        "file": "posts/3.md"
     }
 ]
